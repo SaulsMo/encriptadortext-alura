@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #eee;
+    height: 100vh;
+}
+
+.container_titulo{
+    margin: 25px 0px 0px 25px;
+}
+
+#cuadrotext{    
+    width: 900px;
+    height: 500px;
+    padding: 25px 600px 50px 25px;
+    text-align: justify;
+    margin: 0px 0px 25px 25px;
+}
+
+#cuadroresultado{
+    width: 400px;
+    height: 500px;
+    padding: 25px 0px 50px 25px;
+    margin: 0px 0px 25px 25px;
+    text-align: justify;
+}
