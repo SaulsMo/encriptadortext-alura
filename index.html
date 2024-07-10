@@ -14,17 +14,17 @@
             <h1>Encriptador y desencriptador de texto</h1>
         </div>
         
-        <input type="text" id="cuadrotext" class="container_cuadroText">
-        <input type="text" id="cuadroresultado" class="container_cuadroResult">
+        <input type="text" id="cuadroText" class="container_cuadroText" placeholder="Ingrese aqui el texto...">
+        <input type="text" id="cuadroResultado">
 
         <div class="container_botones">
-            <button>Encriptar</button>
-            <button>Descencriptar</button>
-            <button id="boton_copiar">Copiar</button>
+            <button onclick="encriptarTexto();">Encriptar</button>
+            <button onclick="desencriptarTexto();">Descencriptar</button>
+            <button id="boton_copiar" onclick="copiarTexto();">Copiar</button>
         </div>
 
     </div>
 
-    <script src="./app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
